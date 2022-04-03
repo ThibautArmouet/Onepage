@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Noe display";
+    src: url("/assets/fonts/NoeDisplay-Bold.ttf") format("ttf"),
+   }
+
+@font-face {
+    font-family: "PP Pangram sans";
+    src: url("/assets/fonts/PPPangramSans-Semibold.ttf") format("ttf"),
+   }
+
+
+h1{
+    font-family: "Noe display";
+    font-size: 102.44px;
+    line-height: 121%;
+    color: white;
+}
+
+span{
+    
+    font-family: "PP Pangram sans";
+    font-size: 49.6384px;
+    line-height: 121%;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+
+}
+
+h3{
+
+    font-family: "PP Pangram sans ";
+    font-weight: 600 ;
+    font-size: 32px;
+    color: #5D5DFF;
+    text-transform: uppercase;
+        
+
+
+}
