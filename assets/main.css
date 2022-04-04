@@ -259,6 +259,41 @@
   gap: 0;
 }
 
+.form {
+  padding: 210px 8%;
+}
+.form h2 {
+  text-align: center;
+  margin-bottom: 82px;
+}
+.form #form_container {
+  width: 100%;
+  gap: 0;
+  max-width: 39%;
+}
+.form #form_container div {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.form #form_container div label {
+  width: 100%;
+}
+.form #form_container input {
+  height: 58px;
+  width: 100%;
+  background: #B8B8E4;
+  opacity: 0.5;
+  border-radius: 5px;
+  border: none;
+}
+.form #form_container label, .form #form_container input {
+  display: flex;
+  flex-direction: column;
+}
+
 .switch {
   height: 24px;
   width: 56px;
@@ -285,6 +320,18 @@
 
 .switch:checked:after {
   transform: translatex(32px);
+}
+
+button {
+  padding: 20px 74.6921px;
+  background-color: #5D5DFF;
+  font-family: "PP Pangram Sans";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 21.3406px;
+  line-height: 124.9%;
+  color: #F2F2F2;
+  border: none;
 }
 
 /*# sourceMappingURL=main.css.map */
