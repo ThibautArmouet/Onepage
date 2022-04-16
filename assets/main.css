@@ -620,7 +620,7 @@ html {
   #hero ol {
     display: flex;
     flex-direction: row;
-    margin: 0 7%;
+    margin: 24% 7%;
   }
   #hero ol li {
     margin: 0 21px;
@@ -1048,7 +1048,7 @@ html {
     border-radius: 16px;
     display: inline-block;
     margin: 0;
-    top: 57px;
+    top: 10%;
     right: 9%;
     background: #B8B8E4;
     transition: all 0.5s ease;
