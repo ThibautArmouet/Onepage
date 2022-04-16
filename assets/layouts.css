@@ -17,8 +17,14 @@
 
    @font-face {
     font-family: "PP Pangram sans";
-    src: url("/assets/fonts/PPPangramSans-Light.woff2") format("woff2");
+    src: url("/assets/fonts/PPPangramSans-CompactRegular.woff2") format("woff2");
     font-weight:lighter;
+   }
+
+   @font-face {
+    font-family: "PP Pangram sans";
+    src: url("/assets/fonts/PPPangramSans-Light.woff2") format("woff2");
+    font-weight:100;
    }
 
 

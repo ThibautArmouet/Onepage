@@ -72,6 +72,7 @@ html{
                 margin: 0 22px;
                 color: $secondary-color;
                 font-family: "PP Pangram sans";
+                font-weight: 100;
                 font-size: 21px;
                 cursor: url('/assets/images/hover-cursor.png'), auto;
                
@@ -94,6 +95,8 @@ html{
         li{
             margin: 0 21px;
             color: $secondary-color;
+            font-family: "PP Pangram sans";
+            font-weight: 100;
         }
     }
 
@@ -799,6 +802,7 @@ footer{
                     margin: 0 8px;
                     color: $secondary-color;
                     font-family: "PP Pangram sans";
+                    font-weight: 100;
                     font-size: 14px;
                     cursor: url('/assets/images/hover-cursor.png'), auto;
                    
@@ -821,6 +825,8 @@ footer{
             li{
                 margin: 0 21px;
                 color: $secondary-color;
+                font-family: "PP Pangram sans";
+                font-weight: 100;
             }
         }
     

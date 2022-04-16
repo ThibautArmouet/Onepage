@@ -54,6 +54,7 @@ html {
     margin: 0 22px;
     color: #F2F2F2;
     font-family: "PP Pangram sans";
+    font-weight: 100;
     font-size: 21px;
     cursor: url("/assets/images/hover-cursor.png"), auto;
   }
@@ -68,6 +69,8 @@ html {
   #hero ol li {
     margin: 0 21px;
     color: #F2F2F2;
+    font-family: "PP Pangram sans";
+    font-weight: 100;
   }
 
   #first {
@@ -613,6 +616,7 @@ html {
     margin: 0 8px;
     color: #F2F2F2;
     font-family: "PP Pangram sans";
+    font-weight: 100;
     font-size: 14px;
     cursor: url("/assets/images/hover-cursor.png"), auto;
   }
@@ -627,6 +631,8 @@ html {
   #hero ol li {
     margin: 0 21px;
     color: #F2F2F2;
+    font-family: "PP Pangram sans";
+    font-weight: 100;
   }
 
   #first {
