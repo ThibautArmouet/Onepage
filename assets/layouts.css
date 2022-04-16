@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Noe display";
-    src: url("/assets/fonts/NoeDisplay-Bold.woff2") format("woff2"),
+    src: url("/assets/fonts/NoeDisplay-Bold.woff2") format("woff2");
    }
 
 @font-face {
     font-family: "PP Pangram sans";
-    src: url("/assets/fonts/PPPangramSans-Semibold.ttf") format("ttf"),
+    src: url("/assets/fonts/PPPangramSans-Semibold.ttf") format("ttf");
    }
 
 
