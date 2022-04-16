@@ -5,32 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="./assets/layouts.css">
 </head>
-<body>
+<body id="light">
+
+    <input type="checkbox" class="switch" checked>
+        
+<main>
+
     <section id="hero">
         <div>
             <img src="./assets/images/Header.png" alt="">
             <nav>
                 <ul>
-                    <a href="">
+                    <a href="#first" class="link_menu link_menu-ltr">
                         <li>Histoire</li>
                     </a>
-                    <a href="">
+                    <a href="#background_change" class="link_menu link_menu-ltr">
                         <li>conditions</li>
                     </a>
-                    <a href="">
+                    <a href="#container_slider" class="link_menu link_menu-ltr">
                         <li>Activités</li>
                     </a>
-                    <a href="">
+                    <a href="#last" class="link_menu link_menu-ltr">
                         <li>Réservation</li>
                     </a>
                 </ul>
+                
             </nav>
-            <input type="checkbox" class="switch" checked>
-        
+
+            <div id="fake_switch"></div>
+           
         </div>
         <article>
             <span>Norways</span>
@@ -66,122 +73,270 @@
         <div class="text-left"> </div>
     </section>
 
-    <section class="container_accordions">
+  
 
-        <article>
+    <section id="background_change">
 
-            <h3>Des voyages sur mesures</h3>
-            <p>Amet minim mollit non deserunt ullaco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <section class="container_accordions">
 
-        </article>
-        <article>
-
-            <div class="wrapper">
-
-            
-                <input type="checkbox" id="tab-1">
-                <label for="tab-1">
-                    <p>test</p>
-                    <div class="button"></div>
-                </label>
-
-                <div class="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
-
-            </div>
-            <div class="wrapper border">
-
-            
-                <input type="checkbox" id="tab-2">
-                <label for="tab-2">
-                    <p>test</p>
-                    <div class="button"></div>
-                </label>
-
-                <div class="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
-
-            </div>
-
-            
-
-        </article>
-
-
-    </section>
-
-    <section id="container_slider">
-        <article>
-
-            <div class="slider-container">
-                <div class="slider">
-                  <div class="slides">
-                    <div id="slides__1" class="slide">
-                      <span class="slide__text"><img src="/assets/images/slider_test.png" alt=""></span>
-                      <a class="slide__prev" href="#slides__4" title="Next"></a>
-                      <a class="slide__next" href="#slides__2" title="Next"></a>
-                    </div>
-                    <div id="slides__2" class="slide">
-                      <span class="slide__text"><img src="/assets/images/slider_test.png" alt=""></span>
-                      <a class="slide__prev" href="#slides__1" title="Prev"></a>
-                      <a class="slide__next" href="#slides__3" title="Next"></a>
-                    </div>
-                    <div id="slides__3" class="slide">
-                      <span class="slide__text"><img src="/assets/images/slider_test.png" alt=""></span>
-                      <a class="slide__prev" href="#slides__2" title="Prev"></a>
-                      <a class="slide__next" href="#slides__4" title="Next"></a>
-                    </div>
-                    <div id="slides__4" class="slide">
-                      <span class="slide__text"><img src="/assets/images/slider_test.png" alt=""></span>
-                      <a class="slide__prev" href="#slides__3" title="Prev"></a>
-                      <a class="slide__next" href="#slides__1" title="Prev"></a>
-                    </div>
-               
+            <article >
+    
+                <h3>Des voyages sur mesures</h3>
+                <p>Amet minim mollit non deserunt ullaco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+    
+            </article>
+            <article>
+    
+                <div class="wrapper">
+    
+                
+                    <input type="checkbox" id="tab-1">
+                    <label for="tab-1">
+                        <p>Condition de réservation</p>
+                        <div class="button"></div>
+                    </label>
+    
+                    <div class="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+    
                 </div>
-              </div>
-
-        </article>
-        <article class="text">
-            <h2>Explorez les trésors nordiques</h2>
-            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <button>Réserver mainteant</button>
-        </article>
-    </section>
-
-    <section class="form">
-        <article><H2>Réservez dès maintenant votre voyage</H2></article>
-        <article id="form_container">
-            <div>
-                <label for="#name">
-                    Name
-                    <input type="text" id="name">
-                </label>
+                <div class="wrapper border">
+    
                 
-                <label for="#lastname">
-                    last name
-                    <input type="text" id="lastname"> 
-                </label>
+                    <input type="checkbox" id="tab-2">
+                    <label for="tab-2">
+                        <p>Détails du logement </p>
+                        <div class="button"></div>
+                    </label>
+    
+                    <div class="content">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+    
+                </div>
+    
                 
-            </div>
+    
+            </article>
+    
+    
+        </section>
+
+        <section id="container_slider">
+            <article>
+    
+                <div class="slider-container">
+                    <div class="slider">
+                      <div class="slides">
+                        <div id="slides__1" class="slide">
+                          <span class="slide__text"><img src="/assets/images/slider_test.png" alt=""></span>
+                          <a class="slide__prev" href="#slides__4" title="Next"></a>
+                          <a class="slide__next" href="#slides__2" title="Next"></a>
+                        </div>
+                        <div id="slides__2" class="slide">
+                          <span class="slide__text"><img src="/assets/images/slider_test.png" alt=""></span>
+                          <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                          <a class="slide__next" href="#slides__3" title="Next"></a>
+                        </div>
+                        <div id="slides__3" class="slide">
+                          <span class="slide__text"><img src="/assets/images/slider_test.png" alt=""></span>
+                          <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                          <a class="slide__next" href="#slides__4" title="Next"></a>
+                        </div>
+                        <div id="slides__4" class="slide">
+                          <span class="slide__text"><img src="/assets/images/slider_test.png" alt=""></span>
+                          <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                          <a class="slide__next" href="#slides__1" title="Prev"></a>
+                        </div>
+                   
+                    </div>
+                  </div>
+    
+            </article>
+            <article class="text">
+                <h2>Explorez les trésors nordiques</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button>Réserver mainteant</button>
+            </article>
+        </section>
+        <article id="title">
+            <H2 id="last">Réservez dès maintenant votre voyage</H2>
+        </article>
+        <section class="form">
             
-            <label for="#email"></label>
-            <label for="#choice">email</label>
-            <input type="mail" name="" id="mail">
-            <select name="" id="#choice">
-                <option value="">Choose option</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-                <option value="6">6</option>
-            </select>  
-            <input type="radio">
-            <label for=""></label>
+            <article id="form_container">
+                <div>
+                    <label for="#name">
+                        Name
+                        <input type="text" id="name">
+                    </label>
+                    
+                    <label for="#lastname">
+                        last name
+                        <input type="text" id="lastname"> 
+                    </label>
+                    
+                </div>
+                
+                <label for="#email"></label>
+                <label for="#choice">email</label>
+                <input type="mail" name="" id="mail">
+                <label for="#choice">Choix des visites</label>
+                <select name="" id="#choice">
+                    <option value="">Choose option</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>  
+                <div class="container_radio">
+                    <input type="radio" class="radio">
+                    <label for="">Visite</label>  
+                </div>
+                <div class="container_radio">
+                    <input type="radio" class="radio">
+                    <label for="">Voyage</label>
+                </div>
+                
+                <div class="container_radio last">
+                    <input type="radio" class="radio">
+                    <label for="">Location</label>
+                </div>
+                
+    
+                <button >Ajouter ma réservation</button>
+    
+            </article>
+            <article id="container_calendar">
+                <select name="" id="">
+    
+                    <option value="">Janvier</option>
+                    <option value="1">Février</option>
+                    <option value="2">Mars</option>
+                    <option value="3">Avril</option>
+                    <option value="4">Mai</option>
+                    <option value="5">Juin</option>
+                    <option value="6">Juillet</option>
+                    <option value="7">Aout</option>
+                    <option value="8">Septembre</option>
+                    <option value="9">Octobre</option>
+                    <option value="10">Novembre</option>
+                    <option value="11">Décembre</option>
 
-            <button>Ajouter ma réservation</button>
+                </select>
+                <div id="calendar_week">
+                    <span>Mo</span>
+                    <span>Tu</span>
+                    <span>We</span>
+                    <span>Th</span>
+                    <span>Fr</span>
+                    <span>Sa</span>
+                    <span>Su</span>
 
-        </article>
-        <article></article>
+                </div>
+                <div id="calendar_day">
+                    <input type="checkbox" id="day_1">
+                    <label for="day_1">1</label>
+                    <input type="checkbox" id="day_2">
+                    <label for="day_2">2</label>
+                    <input type="checkbox" id="day_3">
+                    <label for="day_3">3</label>
+                    <input type="checkbox" id="day_4">
+                    <label for="day_4">4</label>
+                    <input type="checkbox" id="day_5">
+                    <label for="day_5">5</label>
+                    <input type="checkbox" id="day_6">
+                    <label for="day_6">6</label>
+                    <input type="checkbox" id="day_7">
+                    <label for="day_7">7</label>
+                    <input type="checkbox" id="day_8">
+                    <label for="day_8">8</label>
+                    <input type="checkbox" id="day_9">
+                    <label for="day_9">9</label>
+                    <input type="checkbox" id="day_10">
+                    <label for="day_10">10</label>
+                    <input type="checkbox" id="day_11">
+                    <label for="day_11">11</label>
+                    <input type="checkbox" id="day_12">
+                    <label for="day_12">12</label>
+                    <input type="checkbox" id="day_13">
+                    <label for="day_13">13</label>
+                    <input type="checkbox" id="day_14">
+                    <label for="day_14">14</label>
+                    <input type="checkbox" id="day_15">
+                    <label for="day_15">15</label>
+                    <input type="checkbox" id="day_16">
+                    <label for="day_16">16</label>
+                    <input type="checkbox" id="day_17">
+                    <label for="day_17">17</label>
+                    <input type="checkbox" id="day_18">
+                    <label for="day_18">18</label>
+                    <input type="checkbox" id="day_19">
+                    <label for="day_19">19</label>
+                    <input type="checkbox" id="day_20">
+                    <label for="day_20">20</label>
+                    <input type="checkbox" id="day_21">
+                    <label for="day_21">21</label>
+                    <input type="checkbox" id="day_22">
+                    <label for="day_22">22</label>
+                    <input type="checkbox" id="day_23">
+                    <label for="day_23">23</label>
+                    <input type="checkbox" id="day_24">
+                    <label for="day_24">24</label>
+                    <input type="checkbox" id="day_25">
+                    <label for="day_25">25</label>
+                    <input type="checkbox" id="day_26">
+                    <label for="day_26">26</label>
+                    <input type="checkbox" id="day_27">
+                    <label for="day_27">27</label>
+                    <input type="checkbox" id="day_28">
+                    <label for="day_28">28</label>
+                    <input type="checkbox" id="day_29">
+                    <label for="day_29">29</label>
+                    <input type="checkbox" id="day_30">
+                    <label for="day_30">30</label>
+                    <input type="checkbox" id="day_31">
+                    <label for="day_31">31</label>
+                    
+                    
+                </div>
+            </article>
+        </section>
+
+        <footer>
+
+            <img src="/assets/images/Header.png" alt="">
+            <article>
+
+                <h4>Lorem ipsum</h4>
+                <ul>
+                    <a href="">
+                        <li>Histoire</li>
+                    </a>
+                    <a href="">
+                        <li>conditions</li>
+                    </a>
+                    <a href="">
+                        <li>Activités</li>
+                    </a>
+                    <a href="">
+                        <li>Réservation</li>
+                    </a>
+                </ul>
+            </article>
+            <article>
+                <h2></h2>
+                <input type="text">
+                <button>S'inscire</button>
+            </article>
+
+        </footer>
+    
+        
     </section>
+    
+
+  
+</main1>
 
   
 </body>

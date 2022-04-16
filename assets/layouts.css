@@ -9,6 +9,18 @@
    }
 
 
+
+   html body {
+       cursor: url('/assets/images/cursor.png'), auto;
+   }
+
+   a button .link_menu {
+    cursor: url('/assets/images/hover-cursor.png'), auto;
+   }
+
+
+@media (min-width:482px)  {
+
 h1{
     font-family: "Noe display";
     font-size: 102.44px;
@@ -21,20 +33,102 @@ span{
     font-family: "PP Pangram sans";
     font-size: 49.6384px;
     line-height: 121%;
+    font-weight: 500;
     color: white;
     text-transform: uppercase;
     margin-bottom: 44px;
 
 }
 
-h3, h2{
+h2{
 
-    font-family: "PP Pangram sans ";
+    font-family: "Noe display";
+    font-weight: 600 ;
+    font-size: 48px;
+    color: #5D5DFF;
+
+}
+
+h3{
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 121%;
+    color: #5D5DFF;
+    text-transform: uppercase;
+}
+
+
+label{
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #5D5DFF;
+    margin-bottom: 6px;
+}
+
+p{
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 45px;
+    color: #0F0D0A;
+
+}
+}
+
+@media (max-width:480px)  {
+
+    h1{
+        font-size: 40px;
+        font-family: "Noe display";
+        line-height: 121%;
+        color: white;
+    }
+
+
+span{
+    
+    font-family: "PP Pangram sans";
+    font-size: 19.6384px;
+    line-height: 121%;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+
+}
+
+p{
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 200;
+    line-height: 45px;
+    color: #0F0D0A;
+
+}
+label{
+    font-family: 'PP Pangram Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #5D5DFF;
+    margin-bottom: 6px;
+}
+
+h2{
+
+    font-family: "Noe display";
     font-weight: 600 ;
     font-size: 32px;
     color: #5D5DFF;
-    text-transform: uppercase;
-        
 
-
+}
 }
