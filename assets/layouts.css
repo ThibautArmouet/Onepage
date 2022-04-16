@@ -15,6 +15,12 @@
     font-weight:bold;
    }
 
+   @font-face {
+    font-family: "PP Pangram sans";
+    src: url("/assets/fonts/PPPangramSans-Light.woff2") format("woff2");
+    font-weight:lighter;
+   }
+
 
 
    html body {
@@ -81,7 +87,7 @@ label{
 p{
     font-family: 'PP Pangram Sans';
     font-style: normal;
-    font-weight: 200;
+    font-weight: lighter;
     font-size: 24px;
     line-height: 45px;
     color: #0F0D0A;
@@ -114,7 +120,7 @@ span{
 p{
     font-family: 'PP Pangram Sans';
     font-style: normal;
-    font-weight: 200;
+    font-weight: lighter;
     line-height: 45px;
     color: #0F0D0A;
 

@@ -120,6 +120,7 @@ html{
         width: 900px;
         margin-left: 5%;
         line-height: 136.7%;
+        font-weight: lighter;
        
     }
 }
@@ -228,7 +229,7 @@ html{
                 p{
                     font-family: 'PP Pangram Sans';
                     font-style: normal;
-                    font-weight: 350;
+                    font-weight: lighter;
                     font-size: 14px;
                     line-height: 137%;
                     text-transform: uppercase;
@@ -814,7 +815,7 @@ footer{
         ol{
             display: flex;
             flex-direction: row;
-            margin: 24% 7%;
+            margin: 20% 7%;
     
     
             li{
@@ -962,7 +963,7 @@ footer{
                     p{
                         font-family: 'PP Pangram Sans';
                         font-style: normal;
-                        font-weight: 350;
+                        font-weight: lighter;
                         font-size: 14px;
                         line-height: 137%;
                         text-transform: uppercase;
