@@ -9,6 +9,12 @@
     font-weight:500;
    }
 
+   @font-face {
+    font-family: "PP Pangram sans";
+    src: url("/assets/fonts/PPPangramSans-Bold.woff2") format("woff2");
+    font-weight:bold;
+   }
+
 
 
    html body {
@@ -44,7 +50,7 @@ span{
 h2{
 
     font-family: "Noe display";
-    font-weight: 500 ;
+    font-weight: bold ;
     font-size: 48px;
     color: #5D5DFF;
 
@@ -53,7 +59,7 @@ h2{
 h3{
     font-family: 'PP Pangram Sans';
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 32px;
     line-height: 121%;
     color: #5D5DFF;
@@ -127,7 +133,7 @@ label{
 h2{
 
     font-family: "Noe display";
-    font-weight: 500 ;
+    font-weight: bold ;
     font-size: 32px;
     color: #5D5DFF;
 
