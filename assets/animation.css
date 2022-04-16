@@ -1,0 +1,18 @@
+svg {
+    display: block;
+    height: 88px;
+    margin: 0;
+  }
+  
+  .logo-svg:hover {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 5s ease-in-out  forwards;
+    cursor: url('/assets/images/hover-cursor.png'), auto;
+  }
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
