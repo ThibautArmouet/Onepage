@@ -887,6 +887,9 @@ html {
     font-weight: bold;
     font-family: sans-serif;
   }
+  #container_slider .slide__text img {
+    object-fit: cover;
+  }
   #container_slider .slider::before {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
